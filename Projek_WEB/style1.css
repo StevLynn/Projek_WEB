@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header{
+    padding: 2%;
+    background-color: black;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: auto;
+}
+
+h1{
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.head h1{
+    float: left;
+}
+
+.head .kelompok{
+    float: right;
+    padding: 2%;
+}
+
+header ul li{
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 20px;
+}
+
+ul{
+    margin-top: 2%;
+    text-align: center;
+    align-content: center;
+}
+
+nav ul li{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+nav{
+    margin-top: 6%;
+}

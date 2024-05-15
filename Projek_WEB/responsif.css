@@ -1,0 +1,45 @@
+:root{
+    --bg: #161616;
+    --primary: #950101;
+    /* #910000 
+    3D0000*/
+}
+
+/* table */
+@media (max-width: 1005px){
+    html{
+        font-size: 80%;
+    }
+
+    #bar_menu{
+        display: inline-block;
+    }
+
+    .navbar_menu{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        background-color: rgba(5, 5, 5, 0.69);
+        width: 20rem;
+        height: 100vh;
+        transition: 0.5s;
+        display: block;
+    }
+
+    .navbar_menu.active{
+        left: 0;
+    }
+
+    .navbar_menu a{
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+    }
+}
+
+/* mobile phone */
+@media (max-width: 417px){
+    html{
+        font-size: 50%;
+    }
+}

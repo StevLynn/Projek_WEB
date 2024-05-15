@@ -1,0 +1,47 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #443f3f;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-size: 36px; /* Increase font size for emphasis */
+    font-weight: 700; /* Bold font */
+    margin-bottom: 10px;
+    color: white;
+}
+
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+.text-container {
+    color: white;
+    margin-top: 20px; /* Add some space between the image and text */
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}

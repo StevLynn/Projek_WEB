@@ -1,0 +1,185 @@
+/* CSS Reset or Normalize */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #827979;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .image-list {
+    text-align: center;
+  }
+  
+  .image-list li {
+    list-style: none; /* Hapus gaya daftar bawaan */
+    margin-bottom: 5px; /* Berikan margin bawah antar item */
+    font-weight: bold; 
+  }
+  
+  .image-description {
+    text-align: left; /* Mengatur deskripsi gambar menjadi rata kiri */
+   /* CSS Reset or Normalize */
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      margin: 20px;
+  }
+  
+  .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #827979;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .image-container {
+      text-align: center;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column; /* Membuat item dalam container sejajar secara vertikal */
+      align-items: flex-start; /* Membuat item dalam container sejajar dari kiri ke kanan */
+  }
+  
+  .image-container img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+  }
+  
+  .image-details {
+      margin-left: 10px; /* Memberikan jarak antara gambar dan detail */
+  }
+  
+  .image-list {
+      list-style: none; /* Hapus gaya daftar bawaan */
+      margin-bottom: 5px; /* Berikan margin bawah antar item */
+      font-weight: bold;
+  }
+  
+  .image-description {
+      font-style: italic;
+      margin-top: 10px;
+  }
+  
+  .comment-section {
+      max-width: 500px; /* Sesuaikan lebar maksimum yang diinginkan */
+      margin: 20px auto; /* Untuk memastikan kolom komentar berada di tengah */
+      padding: 20px;
+      background-color: #827979;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #comment-form textarea {
+      width: calc(100% - 20px); /* Menggunakan kalkulasi untuk lebar textarea dengan margin */
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+  }
+  
+  #comment-form input[type="submit"] {
+      width: calc(100% - 20px); /* Menggunakan kalkulasi untuk lebar tombol dengan margin */
+      padding: 10px 0;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  #comment-form input[type="submit"]:hover {
+      background-color: #0056b3;
+  }
+   margin-top: 10px;
+    font-style: italic;
+    white-space: pre-wrap; /* Mengatur agar teks membentuk paragraf */
+  }
+  
+  
+  
+  .subtitle {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  .image-description {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .comment-section {
+    max-width: 500px; /* Sesuaikan lebar maksimum yang diinginkan */
+    margin: 20px auto; /* Untuk memastikan kolom komentar berada di tengah */
+    padding: 20px;
+    background-color: #827979;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #comment-form textarea {
+    width: calc(100% - 20px); /* Menggunakan kalkulasi untuk lebar textarea dengan margin */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #comment-form input[type="submit"] {
+    width: calc(100% - 20px); /* Menggunakan kalkulasi untuk lebar tombol dengan margin */
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #comment-form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
